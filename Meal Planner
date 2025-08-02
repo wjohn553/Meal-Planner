@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Meal Planner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #2b2b2b;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #444;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 15px;
+      color: #555;
+    }
+    ul {
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+    ul li {
+      margin-bottom: 6px;
+    }
+    table {
+      width: 100%;
+      margin-top: 15px;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Weekly Meal Planner</h1>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>This weekly plan is inexpensive, healthy, and realistic. It includes a slight caloric surplus for those aiming to gain lean muscle or maintain high energy levels.</p>
+    </div>
+
+    <div class="section">
+      <h2>Grocery List (~$60–70)</h2>
+      <h3>Proteins:</h3>
+      <ul>
+        <li>Eggs (2 dozen)</li>
+        <li>Chicken thighs/tenderloins (2–3 lbs)</li>
+        <li>Ground turkey or beef (1 lb)</li>
+        <li>Canned beans (black beans, chickpeas)</li>
+        <li>Greek yogurt (32 oz)</li>
+        <li>Canned tuna or salmon</li>
+      </ul>
+      <h3>Carbs:</h3>
+      <ul>
+        <li>Brown rice, whole grain pasta, sweet potatoes</li>
+        <li>Rolled oats, whole grain bread/wraps</li>
+        <li>Bananas, apples, frozen berries</li>
+      </ul>
+      <h3>Fats:</h3>
+      <ul>
+        <li>Natural peanut butter, olive oil</li>
+        <li>Mixed nuts, cheese</li>
+      </ul>
+      <h3>Veggies:</h3>
+      <ul>
+        <li>Frozen veggie medley, spinach, onions</li>
+        <li>Garlic, bell peppers, carrots, broccoli</li>
+      </ul>
+      <h3>Extras:</h3>
+      <ul>
+        <li>Salsa, hot sauce, mustard</li>
+        <li>Spices, chia or flaxseeds (optional)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Meal Plan</h2>
+      <table>
+        <tr>
+          <th>Meal</th>
+          <th>Options</th>
+        </tr>
+        <tr>
+          <td>Breakfast</td>
+          <td>
+            <ul>
+              <li>Overnight oats w/ peanut butter & banana</li>
+              <li>Greek yogurt w/ fruit and oats</li>
+              <li>Scrambled eggs + toast + fruit</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Lunch</td>
+          <td>
+            <ul>
+              <li>Chicken & rice bowl with veggies</li>
+              <li>Sweet potato + black bean bowl</li>
+              <li>Whole wheat pasta with ground turkey</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Dinner</td>
+          <td>
+            <ul>
+              <li>Stir-fry with chicken and frozen veggies</li>
+              <li>Ground turkey or bean chili</li>
+              <li>Sheet pan: sweet potato, broccoli, chicken</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Snacks</td>
+          <td>
+            <ul>
+              <li>Peanut butter & banana</li>
+              <li>Boiled eggs, mixed nuts</li>
+              <li>Greek yogurt, tuna & crackers, cheese stick</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Meal Prep Strategy</h2>
+      <ul>
+        <li>Cook 2–3 cups rice and roast veggies on Sunday</li>
+        <li>Grill or roast 2 lbs chicken</li>
+        <li>Prepare chili or a big pasta dish</li>
+        <li>Store in meal containers and mix & match during the week</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Caloric Surplus Tips</h2>
+      <ul>
+        <li>Add olive oil, peanut butter, or nuts for quick calories</li>
+        <li>Drink whole milk or protein shakes if needed</li>
+        <li>Have 2–3 high-calorie snacks daily</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
